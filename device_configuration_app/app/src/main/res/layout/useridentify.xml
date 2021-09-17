@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/logoBackground">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:background="@color/logoBackground">
+
+        <!-- Logo-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/logo2" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:src="@drawable/icon2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dip"
+        android:layout_marginRight="30dip"
+        android:layout_marginLeft="30dip"
+        android:background="@color/logoBackground">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email User"
+            android:textColor="#FFFF"
+            android:textSize="15dip"/>
+
+        <EditText
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:maxLines="1"
+            android:background="@color/logoBackground"/>
+
+        <Button
+            android:id="@+id/btnAvanti"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avanti"
+            android:layout_gravity="right"
+            android:textColor="#FFFF"/>
+
+    </LinearLayout>
+
+</LinearLayout>

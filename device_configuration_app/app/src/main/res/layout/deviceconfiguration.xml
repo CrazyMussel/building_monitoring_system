@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/logoBackground">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/logoBackground"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dip"
+                android:layout_marginTop="50dip"
+                android:layout_marginBottom="30dip"
+                android:text="WiFi settings"
+                android:textColor="#FFFF"
+                android:textStyle="bold"
+                android:textSize="20dip"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginBottom="10dip"
+                android:text="SSID (nome rete): "
+                android:textColor="#FFFF"
+                android:textSize="15dip"/>
+
+            <EditText
+                android:id="@+id/ssid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="50dip"
+                android:maxLines="1"
+                android:background="@color/logoBackground"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginRight="50dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:text="Password: "
+                android:textColor="#FFFF"
+                android:textSize="15dip"/>
+
+            <EditText
+                android:id="@+id/netPass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="50dip"
+                android:maxLines="1"
+                android:inputType="textWebPassword"
+                android:background="@color/logoBackground"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dip"
+                android:layout_marginLeft="40dip"
+                android:layout_marginBottom="30dip"
+                android:text="Informazioni dispositivo"
+                android:textStyle="bold"
+                android:textSize="20dip"
+                android:textColor="#FFFF"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginBottom="10dip"
+                android:text="ID Dispositivo: "
+                android:textColor="#FFFF"
+                android:textSize="15dip"/>
+
+            <EditText
+                android:id="@+id/idDev"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="50dip"
+                android:maxLines="1"
+                android:background="@color/logoBackground"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginBottom="10dip"
+                android:layout_marginTop="10dip"
+                android:text="Intervallo lettura dati (in secondi): "
+                android:textColor="#FFFF"
+                android:textSize="15dip"/>
+
+            <EditText
+                android:id="@+id/intervall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginTop="10dip"
+                android:layout_marginRight="50dip"
+                android:maxLines="1"
+                android:background="@color/logoBackground"/>
+
+            <Button
+                android:id="@+id/btnConfigura"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="40dip"
+                android:layout_marginTop="30dip"
+                android:layout_marginBottom="30dip"
+                android:layout_gravity="right"
+                android:text="     Configura     "
+                android:textColor="#FFFF"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Device Configuration Service</string>
+    <string name="hint_email">Email</string>
+</resources>
